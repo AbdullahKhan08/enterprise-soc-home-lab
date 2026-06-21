@@ -43,6 +43,9 @@ Build a portfolio-grade SOC monitoring lab that collects Windows endpoint teleme
 - [x] File Integrity Monitoring configured for selected Windows paths
 - [x] Windows Startup folder FIM detection created and validated
 - [x] Third incident report completed
+- [x] Windows Security auditing validated for local account creation
+- [x] Local account creation detection created and validated
+- [x] Fourth incident report completed
 
 ## Evidence Captured
 
