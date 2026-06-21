@@ -131,7 +131,7 @@ Set-Content -Path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\
 ### Local Account Creation
 
 ```powershell
-net user SOCLabTemp3 "TempLabPass!2026" /add
+net user SOCLabTemp3 "<temporary-lab-password>" /add
 ```
 
 ### Suspicious Process Chain
@@ -143,7 +143,7 @@ cmd.exe /c powershell.exe -NoProfile -Command "Get-Date"
 ### Failed Network Logon
 
 ```powershell
-net use \\localhost\IPC$ /user:.\SOCLabFailTest WrongPass!2026
+net use \\localhost\IPC$ /user:.\SOCLabFailTest <incorrect-test-password>
 ```
 
 All temporary users, scheduled tasks, startup-folder files, and SMB connections were removed after validation.

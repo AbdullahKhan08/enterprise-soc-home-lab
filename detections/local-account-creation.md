@@ -40,7 +40,7 @@ The custom rule builds on Wazuh’s built-in user-account management rule and li
 The detection was validated using an authorized lab account:
 
 ```powershell
-net user SOCLabTemp3 "TempLabPass!2026" /add
+net user SOCLabTemp3 "<temporary-lab-password>" /add
 ```
 
 ## Evidence Investigated

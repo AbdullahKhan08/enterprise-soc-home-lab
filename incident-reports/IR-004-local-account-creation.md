@@ -26,7 +26,7 @@ The activity was generated as a safe, authorized lab simulation to validate the 
 The following authorized lab command created the test account:
 
 ```powershell
-net user SOCLabTemp3 "TempLabPass!2026" /add
+net user SOCLabTemp3 "<temporary-lab-password>" /add
 ```
 
 ## Alert Evidence
