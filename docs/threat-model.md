@@ -18,13 +18,13 @@ This lab simulates common Windows endpoint threats in an isolated, authorized en
 
 ## Initial Threat Scenarios
 
-| Scenario                   | Goal                                                | Example Evidence                       |
-| -------------------------- | --------------------------------------------------- | -------------------------------------- |
-| Failed logon activity      | Detect authentication abuse patterns                | Windows Security Event ID 4625         |
-| Suspicious PowerShell      | Detect potentially malicious command execution      | PowerShell logs, Sysmon Event ID 1     |
-| Local account creation     | Detect account-based persistence or privilege abuse | Security Event IDs 4720, 4732          |
-| Scheduled task persistence | Detect unauthorized persistence mechanisms          | Task Scheduler logs, Sysmon Event ID 1 |
-| Suspicious process chain   | Identify abnormal parent-child processes            | Sysmon Event ID 1                      |
+| Scenario                    | Goal                                                    | Example Evidence                        |
+| --------------------------- | ------------------------------------------------------- | --------------------------------------- |
+| Failed logon activity       | Detect authentication abuse patterns                    | Windows Security Event ID 4625          |
+| Suspicious PowerShell       | Detect potentially malicious command execution          | PowerShell logs, Sysmon Event ID 1      |
+| Local account creation      | Detect account-based persistence or privilege abuse     | Security Event IDs 4720, 4732           |
+| Scheduled task registration | Detect potentially unauthorized scheduled task creation | Task Scheduler Operational Event ID 106 |
+| Suspicious process chain    | Identify abnormal parent-child processes                | Sysmon Event ID 1                       |
 
 ## Safety Boundaries
 
