@@ -35,8 +35,12 @@ Build a portfolio-grade SOC monitoring lab that collects Windows endpoint teleme
 - [x] PowerShell Script Block Logging configured
 - [x] PowerShell Operational event channel collected by Wazuh
 - [x] Suspicious PowerShell parameter detection created and validated
-- [ ] PowerShell Module Logging and Transcription configured
-- [ ] First incident report completed
+- [x] PowerShell Module Logging and Transcription configured
+- [x] First incident report completed
+- [ ] Task Scheduler Operational logs collected by Wazuh
+- [ ] Scheduled task persistence detection created and validated
+- [ ] Second incident report completed
+- [ ] File Integrity Monitoring configured for selected Windows paths
 
 ## Evidence Captured
 
