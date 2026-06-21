@@ -17,3 +17,5 @@
 - Authorized simulations should be documented, reversible, and cleaned up after testing.
 - Incident reports should record detection logic, evidence, investigation steps, impact assessment, and cleanup verification.
 - Screenshots should show meaningful evidence rather than only dashboard summaries.
+- Built-in SIEM detections can provide useful coverage without a custom rule; failed network logon Event ID `4625` was validated through Wazuh Rule `60122`.
+- Custom rules should only be retained when they add clear value beyond built-in coverage. An attempted duplicate failed-logon custom rule was removed after it did not improve detection quality.
