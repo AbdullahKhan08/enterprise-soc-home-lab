@@ -46,6 +46,8 @@ Build a portfolio-grade SOC monitoring lab that collects Windows endpoint teleme
 - [x] Windows Security auditing validated for local account creation
 - [x] Local account creation detection created and validated
 - [x] Fourth incident report completed
+- [x] Suspicious cmd.exe to PowerShell process-chain detection created and validated
+- [x] Fifth incident report completed
 
 ## Evidence Captured
 
