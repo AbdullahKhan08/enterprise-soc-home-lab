@@ -28,12 +28,14 @@ Build a portfolio-grade SOC monitoring lab that collects Windows endpoint teleme
 - [x] Wazuh Agent installed on `SOC-WIN11-01`
 - [x] Windows endpoint successfully enrolled and communicating with Wazuh
 - [x] Agent network connectivity validated on TCP port 1514
-
 - [x] Sysmon installed
 - [x] Sysmon Operational event channel collected by Wazuh
 - [x] First custom detection rule created and validated
 - [x] PowerShell process-creation detection mapped to MITRE ATT&CK T1059.001
-- [ ] Enhanced PowerShell logging configured
+- [x] PowerShell Script Block Logging configured
+- [x] PowerShell Operational event channel collected by Wazuh
+- [x] Suspicious PowerShell parameter detection created and validated
+- [ ] PowerShell Module Logging and Transcription configured
 - [ ] First incident report completed
 
 ## Evidence Captured
