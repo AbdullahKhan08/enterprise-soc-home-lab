@@ -40,7 +40,9 @@ Build a portfolio-grade SOC monitoring lab that collects Windows endpoint teleme
 - [x] Task Scheduler Operational logs collected by Wazuh
 - [x] Scheduled task registration detection created and validated
 - [x] Second incident report completed
-- [ ] File Integrity Monitoring configured for selected Windows paths
+- [x] File Integrity Monitoring configured for selected Windows paths
+- [x] Windows Startup folder FIM detection created and validated
+- [x] Third incident report completed
 
 ## Evidence Captured
 
