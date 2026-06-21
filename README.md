@@ -154,6 +154,20 @@ All temporary users, scheduled tasks, startup-folder files, and SMB connections 
 
 Evidence screenshots are stored in the [`screenshots`](./screenshots) directory.
 
+### Detection Evidence
+
+#### Suspicious PowerShell Execution
+
+![Suspicious PowerShell detection](./screenshots/12-wazuh-suspicious-powershell-rule-events.png)
+
+#### Windows Startup Folder File Integrity Monitoring
+
+![Startup folder FIM detection](./screenshots/18-wazuh-startup-folder-fim-events.png)
+
+#### Local Account Creation Detection
+
+![Local account creation detection](./screenshots/21-wazuh-local-account-user-details.png)
+
 Examples of evidence captured include:
 
 - Wazuh agent enrollment and endpoint status
