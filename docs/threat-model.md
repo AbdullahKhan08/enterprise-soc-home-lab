@@ -1,5 +1,3 @@
-Then create `docs/threat-model.md` and paste:
-
 ```md
 # Threat Model
 
